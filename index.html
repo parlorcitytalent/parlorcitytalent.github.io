@@ -1,0 +1,217 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Parlor City Talent</title>
+<meta name="description" content="Free help finding a better-paying skilled trades, CDL, IT or nursing job in Binghamton and Broome County, NY. No resume needed, nothing shared without your OK, and you never pay a fee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EmploymentAgency",
+      "name": "Parlor City Talent",
+      "description": "Free help for job seekers in Broome County, New York finding better-paying skilled trades, CDL, IT support and nursing jobs. Job seekers never pay a fee.",
+      "email": "parlorcitytalent@outlook.com",
+      "areaServed": "Broome County, New York",
+      "address": {"@type": "PostalAddress", "addressLocality": "Binghamton", "addressRegion": "NY", "addressCountry": "US"},
+      "founder": {"@type": "Person", "name": "Tyreke Peterson"},
+      "foundingDate": "2026"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Is Parlor City Talent legit?",
+         "acceptedAnswer": {"@type": "Answer", "text": "Parlor City Talent is a small recruiting service started in 2026 by Tyreke Peterson in Binghamton, NY. Job seekers never pay anything, and it never asks for money, bank details, a Social Security number or ID photos. Before any interview it tells you the employer's name so you can confirm the job on the employer's own website or by calling the employer."}},
+        {"@type": "Question", "name": "Do job seekers pay Parlor City Talent?",
+         "acceptedAnswer": {"@type": "Answer", "text": "No. Job seekers never pay any fee of any kind, and nothing comes out of your paycheck."}},
+        {"@type": "Question", "name": "Will my current employer find out?",
+         "acceptedAnswer": {"@type": "Answer", "text": "No. Parlor City Talent never contacts your current employer and shares your name only with an employer you approve, for that specific job."}},
+        {"@type": "Question", "name": "Is Parlor City Talent part of the City of Binghamton?",
+         "acceptedAnswer": {"@type": "Answer", "text": "No. Parlor City is Binghamton's nickname. Parlor City Talent is a private business and is not affiliated with the City of Binghamton or any government agency."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+/* Layout: one readable column; hero with a pay-range strip, then benefits, steps, the "never" box, FAQ */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --ink: #17212c;
+  --muted: #536170;
+  --line: #d8dfe6;
+  --accent: #1f5f8b;
+  --accent-ink: #ffffff;
+  --money: #18734f;
+  --stop: #a3352b;
+  --stop-bg: #fbeeec;
+  --display: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10161d; --surface: #18212b; --ink: #e8eef4; --muted: #a2b0bf; --line: #2b3846;
+    --accent: #6fb3e0; --accent-ink: #0d1620; --money: #6fd3a5; --stop: #f08a7e; --stop-bg: #2a1a18; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10161d; --surface: #18212b; --ink: #e8eef4; --muted: #a2b0bf; --line: #2b3846;
+  --accent: #6fb3e0; --accent-ink: #0d1620; --money: #6fd3a5; --stop: #f08a7e; --stop-bg: #2a1a18; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 40px 64px; display: grid; gap: 44px; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5.2vw, 2.9rem); font-weight: 800; letter-spacing: -0.01em; }
+h2 { font-size: 1.45rem; font-weight: 700; }
+h3 { font-size: 1.05rem; font-weight: 700; }
+p { margin: 0; }
+a { color: var(--accent); }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eyebrow { font-family: var(--display); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+header { display: grid; gap: 16px; }
+.lede { font-size: 1.15rem; color: var(--muted); max-width: 60ch; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.btn { display: inline-block; text-decoration: none; font-family: var(--display); font-weight: 700; padding: 12px 18px; border-radius: 6px; border: 1px solid var(--accent); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); }
+.note { font-size: 0.92rem; color: var(--muted); }
+.rates { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.rate { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 2px; }
+.rate b { font-family: var(--display); font-size: 1.35rem; color: var(--money); font-variant-numeric: tabular-nums; }
+.rate span { color: var(--muted); font-size: 0.95rem; }
+section { display: grid; gap: 14px; }
+.perks { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px 24px; }
+.perk { display: grid; gap: 4px; min-width: 0; }
+.perk p { color: var(--muted); }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 2rem 1fr; gap: 10px; align-items: baseline; }
+.steps li::before { content: counter(s); font-family: var(--display); font-weight: 800; color: var(--accent); }
+.never { background: var(--stop-bg); border: 1px solid var(--stop); border-radius: 8px; padding: 20px; display: grid; gap: 12px; }
+.never h2 { color: var(--stop); }
+.never ul, .checks { margin: 0; padding-left: 1.2rem; display: grid; gap: 6px; }
+details { border-top: 1px solid var(--line); padding-block: 12px; }
+details:last-of-type { border-bottom: 1px solid var(--line); }
+summary { cursor: pointer; font-family: var(--display); font-weight: 700; }
+details p { margin-top: 8px; }
+.cta { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 22px; display: grid; gap: 12px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.95rem; user-select: all; overflow-wrap: anywhere; }
+.fine { font-size: 0.9rem; color: var(--muted); display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 20px; }
+</style>
+</head><body>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Binghamton · Endicott · Vestal · Johnson City</span>
+    <h1>Find out what your skills are worth right now.</h1>
+    <p class="lede">Local employers are paying more for skilled people. I find the openings that fit you, handle the pay conversation for you, and nothing happens without your yes. It's free for you, always.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAbun-S5UMUdPSEhRRVIxQkI4RVRTRjVHVE5RNVBTRS4u" rel="noopener">See what you could make</a>
+      <span class="note">2 minutes. No resume. No commitment.</span>
+    </div>
+  </header>
+
+  <section aria-labelledby="pay">
+    <h2 id="pay">What local employers have posted lately</h2>
+    <div class="rates">
+      <div class="rate"><b>Up to $62/hr</b><span>Senior HVAC service techs</span></div>
+      <div class="rate"><b>Up to $76K</b><span>Local CDL-A routes, home daily</span></div>
+      <div class="rate"><b>Up to $70K</b><span>IT help desk</span></div>
+      <div class="rate"><b>$38/hr and up</b><span>Lead plumbing techs</span></div>
+    </div>
+    <p class="note">Ranges from public Broome County job postings, Nov 2026. Actual pay depends on the employer and your experience. People who changed jobs got bigger raises than people who stayed: 6.4% vs 4.5% (ADP Pay Insights, Jan 2026).</p>
+  </section>
+
+  <section aria-labelledby="why">
+    <h2 id="why">Why people use me instead of applying alone</h2>
+    <div class="perks">
+      <div class="perk"><h3>I do the pay talk</h3><p>Most people take the first number. I tell the employer what you're looking for so you don't have to haggle.</p></div>
+      <div class="perk"><h3>Your boss never hears about it</h3><p>I never contact your current employer. Your name goes only to a company you approve.</p></div>
+      <div class="perk"><h3>No resume, no typing</h3><p>Tap the mic on your phone's keyboard and just talk. I'll write up your experience for you.</p></div>
+      <div class="perk"><h3>You stay in control</h3><p>Just curious? That's fine. You can say no to any job, any time, with no pressure.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="how">
+    <h2 id="how">How it works</h2>
+    <ol class="steps">
+      <li><span>Fill out the 2-minute form.</span></li>
+      <li><span>I call you within one business day to learn the work, schedule and pay you want.</span></li>
+      <li><span>When a job fits, I tell you the employer and the details. You decide yes or no.</span></li>
+      <li><span>You interview with the employer directly. I help you prepare and I handle the offer conversation.</span></li>
+    </ol>
+  </section>
+
+  <section class="never" aria-labelledby="never">
+    <h2 id="never">What I will never ask you for</h2>
+    <ul>
+      <li>Money of any kind. No fees, ever, and nothing comes out of your paycheck.</li>
+      <li>Your Social Security number, bank or card details, or photos of your ID. Those go to the employer after a real offer, never to me.</li>
+      <li>To deposit a check, buy gift cards or send money anywhere.</li>
+      <li>To move our conversation to WhatsApp, Telegram or another chat app.</li>
+      <li>What you earn now or earned before. New York law bars that question.</li>
+    </ul>
+    <p>If anyone using this name asks for any of these, it isn't me. Report it at <a href="https://reportfraud.ftc.gov" rel="noopener">ReportFraud.ftc.gov</a> and email me.</p>
+  </section>
+
+  <section aria-labelledby="verify">
+    <h2 id="verify">Check me before you trust me</h2>
+    <ol class="checks">
+      <li>Before any interview, I give you the employer's name. Look the job up on their own website or call them yourself.</li>
+      <li>I only email from <span class="mono">parlorcitytalent@outlook.com</span>.</li>
+      <li>Ask me anything. You'll get a straight answer.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="faq">
+    <h2 id="faq">Questions people ask</h2>
+    <div>
+      <details>
+        <summary>Why is this free for me?</summary>
+        <p>Employers pay recruiters to find skilled people they can't find on their own. You never pay anything, and New York law doesn't let an employer take a recruiting cost out of your pay.</p>
+      </details>
+      <details>
+        <summary>I'm not sure I want to leave my job.</summary>
+        <p>That's fine. A lot of people just want to know what they're worth. We talk, you hear what's out there, and you decide. No obligation.</p>
+      </details>
+      <details>
+        <summary>Do I need a resume?</summary>
+        <p>No. Tell me about your work on the form or on the phone and I'll put it together.</p>
+      </details>
+      <details>
+        <summary>What kinds of jobs?</summary>
+        <p>HVAC, plumbing, electrical, CDL-A driving, maintenance, welding, auto and diesel, IT help desk and LPN roles around Binghamton and Broome County.</p>
+      </details>
+      <details>
+        <summary>Is this legit?</summary>
+        <p>It's a new local business, so there isn't much about it online yet. You never pay, I never ask for financial or ID information, and I name the employer before any interview so you can confirm the job yourself.</p>
+      </details>
+      <details>
+        <summary>Are you part of the City of Binghamton?</summary>
+        <p>No. Parlor City is Binghamton's nickname. This is a private business, not affiliated with the city or any government agency.</p>
+      </details>
+      <details>
+        <summary>Is a job guaranteed?</summary>
+        <p>No. I connect you with employers who are hiring. The employer makes the hiring decision.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="start">
+    <h2 id="start">Two minutes could change your next paycheck.</h2>
+    <div class="btns">
+      <a class="btn primary" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAbun-S5UMUdPSEhRRVIxQkI4RVRTRjVHVE5RNVBTRS4u" rel="noopener">See what you could make</a>
+    </div>
+    <p>Prefer email? <span class="mono">parlorcitytalent@outlook.com</span></p>
+  </section>
+
+  <footer class="fine">
+    <p>Parlor City Talent is a recruiting service operated by Tyreke Peterson, sole proprietor, Binghamton, NY. It is not a government agency and is not affiliated with the City of Binghamton, New York State or any employer named in job postings.</p>
+    <p>Job seekers are never charged. Pay ranges come from public postings and are not offers. Placement is not guaranteed. Candidates are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status or any other protected characteristic.</p>
+    <p>Last updated November 2026.</p>
+  </footer>
+</div>
+</body></html>
